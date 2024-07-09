@@ -1,0 +1,23 @@
+const id = Symbol("123")
+const anotherid = Symbol("123")
+console.log(id===anotherid)
+console.log(typeof anotherid)
+
+const bigNumber=12345678987654321n
+console.log(typeof bigNumber)
+
+const arr=["hello","hiii"] //Arrays
+console.log(typeof arr)
+
+//Object
+const myobj = {
+    name:"User",
+    age:20,
+}
+console.log(typeof myobj)
+
+ //function
+let myfunction=function(){
+    console.log("Hello user")
+}
+console.log(typeof myfunction)
