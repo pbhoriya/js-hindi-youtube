@@ -1,10 +1,10 @@
-// let myDate= new Date()
-// console.log(myDate)
-// console.log(myDate.toString())
-// console.log(myDate.toDateString())//shows only date
-// console.log(myDate.toLocaleString())
-// console.log(myDate.toISOString())
-// console.log(typeof(myDate))
+let myDate= new Date()
+console.log(myDate)
+console.log(myDate.toString())
+console.log(myDate.toDateString())//shows only date
+console.log(myDate.toLocaleString())
+console.log(myDate.toISOString())
+console.log(typeof(myDate))
 
 let myCreatedDate=new Date(2024, 0, 13)
 console.log(myCreatedDate)
@@ -19,6 +19,18 @@ console.log(anothersDate.toString())
 
 let anotherssDate=new Date("07-13-2024")//mm-dd-yyyy Indian Format
 console.log(anotherssDate.toString())
+
+let aDate=new Date()
+console.log(aDate)
+console.log(aDate.getMonth()+1)//Month 0 se start ho rha h
+console.log(aDate.getDate())
+console.log(aDate.getDay())
+console.log(aDate.getFullYear())
+
+
+
+
+
 
 
 
